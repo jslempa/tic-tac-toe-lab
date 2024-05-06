@@ -56,7 +56,7 @@ const handleClick = (event) => {
     if (winner === true) {
         return
     }    
-    if (board[squareIndex] === 'X' || board[squareIndex] === '0') {
+    if (board[squareIndex] === 'X' || board[squareIndex] === 'O') {
         messageEl.innerText = 'Please select another square'
         return
     } else {
